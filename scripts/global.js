@@ -3,8 +3,8 @@ const menu = document.getElementById('menu');
 
 // Exibe ou oculta o menu em dispositivos móveis.
 menuToggle.addEventListener('click', () => {
-  const display = menu.style.display;
-  menu.style.display = display == 'block' ? 'none' : 'block';
+  menu.style.display = menu.style.display == 'block' ? 'none' : 'block';
+  menuToggle.style.backgroundImage = menu.style.display == 'block' ? 'url(img/icons/close.svg)' : 'url(img/icons/menu.svg)';
 });
 
 // Ao redimensionar a janela deve exibir ou ocultar o menu.
