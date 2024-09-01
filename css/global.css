@@ -33,6 +33,7 @@ header {
 header .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 1em;
 }
 
@@ -117,6 +118,33 @@ button:disabled {
   display: none;
 }
 
+.menu-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.logo span {
+  font-size: 1.2em;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.avatar {
+  width: 2.5em;
+  height: 2.5em;
+  background-image: url(../img/avatar.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
 @media screen and (width < 1000px) {
   #menu-toggle {
     display: block;
@@ -129,11 +157,19 @@ button:disabled {
   header nav {
     display: none;
     width: 100%;
+    position: fixed;
+    background-color: var(--color-primary-main);
+    top: 4.5em;
+    left: 0;
+    padding: 0 0.5em 0.5em 0.5em;
   }
   header nav ul {
     flex-direction: column;
   }
   .card {
+    padding: 1em;
+  }
+  .container {
     padding: 1em;
   }
 }
