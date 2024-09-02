@@ -215,11 +215,15 @@ form {
     background-color: var(--color-primary-main);
     top: 4em;
     left: 0;
-    padding: 0 0.5em 0.5em 0.5em;
+    padding: 0 1em 1em 1em;
   }
 
   header nav ul {
     flex-direction: column;
+  }
+
+  header nav a {
+    padding: 1em;
   }
 
   .card {
