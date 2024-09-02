@@ -62,7 +62,7 @@ header nav li:has(a[href="#"]) {
   background-color: var(--color-primary-active);
 }
 
-header nav a:has(a[href="#"]) {
+header nav a[href="#"] {
   cursor: default;
 }
 
