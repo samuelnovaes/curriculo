@@ -1,3 +1,4 @@
+// Elementos
 const menuToggle = document.getElementById('menu-toggle');
 const menu = document.getElementById('menu');
 

@@ -1,3 +1,5 @@
+/* Configuração da fonte Ubuntu */
+
 @font-face {
     font-family: 'Ubuntu';
     src: url(../fonts/Ubuntu-R.ttf) format('truetype');

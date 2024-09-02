@@ -1,3 +1,5 @@
+/* Estilos dos itens presentes nos cards da página "Formação" */
+
 .info-list {
   display: flex;
   flex-direction: column;
