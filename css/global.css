@@ -87,7 +87,7 @@ header nav a[href="#"] {
   flex: 1;
 }
 
-p,
+p:not(:last-child),
 h1 {
   margin-bottom: 1em;
 }
@@ -163,23 +163,8 @@ button:disabled {
   align-items: center;
 }
 
-.logo {
-  display: flex;
-  gap: 1em;
-  align-items: center;
-}
-
-.logo span {
-  font-size: 1.2em;
-  font-weight: lighter;
-}
-
-.avatar {
-  width: 2.5em;
-  height: 2.5em;
-  background-image: url(../img/avatar.jpg);
-  background-size: cover;
-  border-radius: 50%;
+.page-title {
+  font-size: 1.5em;
 }
 
 .field {
@@ -228,7 +213,7 @@ form {
     width: 100%;
     position: fixed;
     background-color: var(--color-primary-main);
-    top: 4.5em;
+    top: 4em;
     left: 0;
     padding: 0 0.5em 0.5em 0.5em;
   }
